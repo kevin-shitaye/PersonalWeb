@@ -6,23 +6,26 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <title>Contact | Kevin Shitaye</title>
     </head>
-    <body link="white" vlink="white" alink="red">
-        <table>
+    <body link="white" vlink="white" alink="gray" bgcolor="lightgray">
+
+
+   
     
     
             <!-- the heading name -->
-            <tr>
-               <table align="center">
+            
+               <table align="center" bgcolor="white" width="970" >
                    <tr>
-                       <td> <img src="./asset/images/content_images/Untitled.png" alt="" height="100" align="center"></td>
+                       <td width="25%"></td>
+                       <td> <img src="./asset/images/content_images/Untitled.png" align="center" alt="" height="100" align="center"></td>
                    </tr>
                </table>
               
-           </tr>
+           
     
            <!-- the navigation bar -->
-           <tr>
-               <table align="center" bgcolor="#2d2654" width="100%"> 
+           
+               <table align="center" bgcolor="#2d2654" width="970"> 
                    <tr align="center">
                        
                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -38,13 +41,13 @@
                       
                    </tr>
                </table>
-           </tr>
+           
     
     
-           <tr>
-               <table >
+           
+               <table bgcolor="white" width="970" align="center">
                    <tr>
-                       <td width="85%"><h1>Contact me </h1></td>
+                       <td width="70%"><h1>Contact </h1></td>
                        
                        <td>
                            
@@ -58,67 +61,43 @@
                    </tr>
                </table>
               
-           </tr>
+          
     
          
     
     
     
            <!-- the main content -->
-           <tr>
-               <table>
+          
+               <table bgcolor="white" width="970" align="center">
                    <tr>
                        <td width=70%>
                            <table>
                                <tr>
                                    <hr>
                                    <td>
-                                    <form method="POST/GET" action="mailto:it.kevin.shitaye@gmail.com">
-                                    <table>
-                                        <tr>
-                                            <td><label for="fName" >First name:&nbsp;</td>
-                                            <td><input type="text" id="fName" name="fName"  pattern="[a-z]{2,30}" title="No Number and Minimum length 2"></td>
-                                        </tr>
-                                        <tr>
-                                            <td> <label for="sName">Second name:&nbsp;</label></td>
-                                            <td><input type="text" id="sName" name="sName"  pattern="[a-z]{2,30}" title="No Number and Minimum length 2"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label for="email">Email: &nbsp;</label></td>
-                                            <td> <input type="email" id="email" name="email"><br><br</td>
-                                        </tr>
-                                        <tr>
-                                            <td><label for="">Telephone: &nbsp;</label></td>
-                                            <td><input type="tel" id="tel" name="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{6}"
-                                             required title="Format: 251-456-789012" cols="5"></td>
-                                        </tr>
-                              
-                                         <tr>
-                                            <td>Country:
-                                             <select name="country" id="">
-                                             <option value="et">Ethiopia</option>
-                                             <option value="ken">Kenya</option>
-                                             <option value="sud">Sudan</option>
-                                             </select><br></td>
-                                            
-                                        </tr>
-                                        <tr>
-                                            <td> What do you want to say?</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td><textarea name="" id="" cols="40" rows="7"></textarea><br><br></td>
-                                           
-                                        </tr>
-                                        <tr>
-                                            <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Send" align="center"></td>
-                                            
-                                        </tr>
-                                    </table>
-                                </form>
-                                    </td>
+                                       <p>You can get a hold of me by using the contact form below.</p>
+                                       <br>
+                                       <p>If you want to mail something to me you can use my business address:</p>
+                                       
+                                       
+                    
+                                   </td>
+
+                                  
+                                   
                                </tr>
-                              
+                               <tr>
+                                       <td><p>Kevin Shitaye <br>
+                                              P.O. Box 1519 <br>
+                                              1000 ADDIS ABABA <br>
+                                              ETHIOPIA </p> <br>
+                                              <h2>Contact form</h2>
+                                            </td>
+                                       
+                               </tr>
+
+                        
     
                            </table>
                        </td>
@@ -135,19 +114,54 @@
                        
                    </tr>
                </table>
+
+
+            <form method="POST/GET" action="mailto:it.kevin.shitaye@gmail.com">
+               <table bgcolor="white" width="970" align="center">
+                   <tr>
+                       <td><label for="Name">Your Name (required)</label></td>
+                   </tr>
+                   <tr>
+                       <td><input type="text" id="name" name="Name" required  pattern="[a-z]{2,30}" title="No Number and Minimum length 2" size="85"><br><br><br><br></td>
+                   </tr>
+                   <tr>
+                       <td><label for="email">Email (required):</label></td>
+                   </tr>
+                   <tr>
+                       <td><input type="email" id="email" name="email" size="85" required><br><br></td>
+                   </tr>
+                   <tr>
+                       <td><label for="Subject">Subject:</label></td>
+                   </tr>
+                   <tr>
+                       <td><input type="text" id="Subject" name="Subject"  pattern="[a-z]{2,50}" title="Short and precise" size="85"> <br><br><br></td>
+                   </tr>
+
+                   <tr>
+                       <td><label for="message">Your message:</label></td>
+                   </tr>
+                   <tr>
+                       <td><textarea name="" id="" cols="78" rows="20"></textarea></td>
+                   </tr>
+                   <tr>
+                       <td align="center"><button type="submit" value="send" >Send</button><br><br><br><br><br></td>
+                       <td width="50%"></td>
+                   </tr>
+               </table>
+            </form>
     
-           </tr>
+           
     
     
     
     
     
            
-    <hr>
+    <hr width="970" align="center">
            <!-- the footer -->
-           <tr>
-               <p>Copyright &copy;2020 Kevin Shtaye. All rights reserved. </p>
-           </tr>
-       </table>
+           
+    <p align="center"> Copyright &copy;2020 Kevin Shtaye. All rights reserved. </p>
+           
+      
     </body>
 </html>

@@ -1,14 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+body {
+    background-color: #eee;
+}
+
+}
 #logo{
     font-family: 'Open Sans', sans-serif;
-    font-size: 8vw;
+    font-size: 7vw;
     color: #2d2654;
     
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
     background-color: #2d2654;
     
+}
+
+#profile {
+    float:right;
+    width: 20vw;
+}
+
+.headings {
+    border-bottom: gray dashed 1px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+#sideContent {
+    border-left: dashed gray 1px;
+    
+}
+
+#sideContent #forBorder {
+    border-top: gray dashed 1px;
+    padding-top: 30px;
+    margin-top: 30px;
 }
 

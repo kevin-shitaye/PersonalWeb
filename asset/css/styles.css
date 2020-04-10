@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
-@media (min-width: 1200px) {
-    .container{
-        max-width: 970px;
-    }
+
+
 body {
-    background-color: #eee;
+ background-color: #eeeeee;   
+}
+#theWholeBody {
+    background-color: #ffffff;
 }
 
-}
 #logo{
     font-family: 'Open Sans', sans-serif;
-    font-size: 7vw;
+    font-size: 6vw;
     color: #2d2654;
     
 }

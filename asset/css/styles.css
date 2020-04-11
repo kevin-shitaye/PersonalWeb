@@ -11,7 +11,7 @@ body {
 
 #logo{
     font-family: 'Open Sans', sans-serif;
-    font-size: 6vw;
+    font-size: 60px;
     color: #2d2654;
     
 }
@@ -22,11 +22,12 @@ p {
 nav {
     background-color: #2d2654;
     
+    
 }
 
 #profile {
     float:right;
-    width: 20vw;
+    width: 200px;
 }
 
 .headings {

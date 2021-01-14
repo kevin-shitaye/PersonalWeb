@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
-
-
 body {
  background-color: #eeeeee;   
-}
-#theWholeBody {
-    background-color: #ffffff;
 }
 
 #logo{
     font-family: 'Open Sans', sans-serif;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #2d2654;
     
 }
@@ -21,51 +16,20 @@ p {
 
 nav {
     background-color: #2d2654;
-    
-    
 }
 
-@media (max-width:500px){
-    #profile {
-        min-width: 100%;
-        margin-bottom: 20px;
-    }
 
-    #logo {
-        font-size: 40px;
-    }
-
-   
+#profilepicture {
+    width: 12.5rem;
 }
 
-#profile {
-    float:right;
-    width: 200px;
-}
-
-.headings {
-    border-bottom: gray dashed 1px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+#heading {
+    border-bottom: gray dotted 1px;
 }
 
 #sideContent {
-    border-left: dashed gray 1px;
-    text-align: center;
-    
+    border-left: dotted gray 1px;
 }
 
-#sideContent #forBorder {
-    border-top: gray dashed 1px;
-    padding-top: 30px;
-    margin-top: 30px;
-}
 
-@media (max-width:780px){
-    #sideContent,p {
-        border: none;
-    }
-
-   
-}
 

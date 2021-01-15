@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Serif&family=PT+Serif&display=swap');
 
 body {
  background-color: #eeeeee;   
@@ -10,8 +10,11 @@ body {
     color: #2d2654;
     
 }
+
+
 p {
     font-family: Arial, Helvetica, sans-serif;
+    color: #574d4d;
 }
 
 nav {
@@ -25,10 +28,16 @@ nav {
 
 #heading {
     border-bottom: gray dotted 1px;
+    font-family: 'Lora', 'Noto Serif', serif, 'PT Serif';
 }
 
 #sideContent {
     border-left: dotted gray 1px;
+}
+
+#sideContent i {
+    font-size: 35px;
+    margin: 5px;
 }
 
 

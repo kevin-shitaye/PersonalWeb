@@ -24,6 +24,7 @@ nav {
 
 #profilepicture {
     width: 12.5rem;
+    border: solid blue 1px;
 }
 
 #heading {
